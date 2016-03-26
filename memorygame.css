@@ -1,0 +1,39 @@
+body {
+  background-color: gray;
+}
+#container {
+  margin: 0 auto;
+  width: 640px;
+  font: 20px Verdana;
+}
+#information {
+  text-align: center;
+  margin: 20px;
+}
+.text {
+  color: white;
+}
+.button {
+  background-color: black;
+  color: white;
+  margin: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#images div {
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  padding: 5px;
+  border: 4px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  background: white;
+}
+#images div img{
+  display: none;
+  width: 100px;
+  height: 100px;
+}
